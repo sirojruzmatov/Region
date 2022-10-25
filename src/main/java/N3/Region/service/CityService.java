@@ -5,7 +5,7 @@ import N3.Region.dto.ResponseDto;
 
 import java.util.List;
 
-public interface StudentService {
+public interface CityService {
 
     ResponseDto addCity(CityDto cityDto);
 
@@ -14,4 +14,5 @@ public interface StudentService {
     ResponseDto updateCity(CityDto cityDto);
 
     ResponseDto deleteCity(Integer id);
+
 }
